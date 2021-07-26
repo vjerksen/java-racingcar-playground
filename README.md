@@ -24,3 +24,14 @@ git checkout main // 기본 브랜치가 main인 경우
 git checkout -b 브랜치이름
 ex) git checkout -b apply-feedback
 ```
+
+---
+## 자동차 경주 게임 구현 요구 사항
+* 자동차 이름
+    * 규칙
+        * 다섯 글자 이하
+        * 쉼표를 기준으로 이름 구분
+    * 출력
+        * 자동차 이동 출력할 때, 이름도 같이 출력
+    * 결과
+        * 우승자는 한 명 이상 가능
