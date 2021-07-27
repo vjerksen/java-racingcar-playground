@@ -24,4 +24,11 @@ public class RacingTest {
         assertThat(racing.isNameLengthUnderFive("apple")).isTrue();
         assertThat(racing.isNameLengthUnderFive("google")).isFalse();
     }
+
+    @DisplayName("N회 진행 시 종료")
+    @Test
+    void isEndTest() {
+        assertThat(racing.isEnd(5, 5)).isTrue();
+        assertThat(racing.isEnd(1, 5)).isFalse();
+    }
 }
